@@ -1,0 +1,30 @@
+* {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+::selection  {
+  background-color: green;
+  color: #eee;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+   background-image: none;
+   text-decoration: none;
+   color: white;
+}
+
+#words {
+   margin: 0px 0px 0px -8px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   padding: 5px;
+   background-color: black;
+  font-family: monospace;
+  color: #fff;
+}
