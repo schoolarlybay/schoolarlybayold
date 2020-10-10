@@ -41,6 +41,7 @@ h2 {
 }
 
 .block {
+   font-family: 'Ubuntu', sans-serif;
    border: ridge 8px #e30707;
    padding: 8px;
    margin: 8px;
@@ -60,7 +61,42 @@ h2 {
    width: 100%;
    padding: 10px;
    background-color: black;
-  font-family: monospace;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 2.5px;
   color: #fff;
   font-size: 20px;
+}
+
+h1 {
+   font-family: 'Dancing Script', cursive;
+   font-size: 55px;
+   color: #FFC107;
+   text-shadow: 2px 2px black
+}
+
+h3 {
+   font-size: 25px;
+   font-family: 'Merienda', cursive;
+   margin-top: -30px;
+   color: #FFC107;
+   text-shadow: 2px 2px black
+}
+
+/*==========================================================
+Mobile
+==========================================================*/
+
+@media (max-width: 740px) {
+   .block {
+      font-family: 'Ubuntu', sans-serif;
+      border: ridge 8px #e30707;
+      padding: 8px;
+      margin: 8px;
+      display: block;
+      width: 160px;
+      height: 75px;
+      background: rgba(255,221,0,1);
+      background: -webkit-linear-gradient(top, rgba(255,221,0,1) 0%, rgba(184,147,0,1) 100%);
+      background: linear-gradient(to bottom, rgba(255,221,0,1) 0%, rgba(184,147,0,1) 100%);
+   }
 }
