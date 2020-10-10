@@ -87,20 +87,4 @@ Mobile
 ==========================================================*/
 
 @media (max-width: 740px) {
-   * {
-     text-align: center;
-     overflow-x: hidden;
-   }
-   .block {
-      font-family: 'Ubuntu', sans-serif;
-      border: ridge 8px #e30707;
-      padding: 8px;
-      margin: 8px;
-      display: block;
-      width: 160px;
-      height: 75px;
-      background: rgba(255,221,0,1);
-      background: -webkit-linear-gradient(top, rgba(255,221,0,1) 0%, rgba(184,147,0,1) 100%);
-      background: linear-gradient(to bottom, rgba(255,221,0,1) 0%, rgba(184,147,0,1) 100%);
-   }
 }
