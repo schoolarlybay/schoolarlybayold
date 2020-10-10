@@ -29,3 +29,12 @@ a {
   font-family: monospace;
   color: #fff;
 }
+
+.block {
+   border: ridge 5px #3f61bf;
+   padding: 8px;
+   margin: 8px;
+   display: inline-block;
+   width: 150px;
+   height: 75px;
+}
