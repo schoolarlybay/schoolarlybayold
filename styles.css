@@ -87,6 +87,10 @@ Mobile
 ==========================================================*/
 
 @media (max-width: 740px) {
+   * {
+     text-align: center;
+     overflow-x: hidden;
+   }
    .block {
       font-family: 'Ubuntu', sans-serif;
       border: ridge 8px #e30707;
