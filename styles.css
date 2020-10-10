@@ -19,6 +19,7 @@ a {
 }
 
 #words {
+   font-weight: bolder;
    margin: 0px 0px 0px -8px;
    position: fixed;
    bottom: 0;
