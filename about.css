@@ -1,14 +1,22 @@
 div {
     text-align: left;
     border: ridge 8px #8BC34A;
-    padding: 25px
+    padding: 25px;
+    background: rgba(204,31,115,1);
+    background: -webkit-linear-gradient(top, rgba(204,31,115,1) 0%, rgba(133,20,75,1) 100%);
+    background: linear-gradient(to bottom, rgba(204,31,115,1) 0%, rgba(133,20,75,1) 100%);
+    font-family: 'Raleway', sans-serif;
 }
 
 h4 {
     font-size: 30px;
     margin: -10px 25px;
+    text-shadow: 1.5px .5px #f1f1f1;
+    color: #2438a5;
 }
 
 p {
     margin: 10px 10px 25px 10px;
+    color: white;
+    text-shadow: 1px .5px #000000;
 }
