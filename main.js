@@ -20,7 +20,7 @@ $(document).ready(function() {
 
 /*=======================================================
 Prevent Right Click
-=======================================================
+=======================================================*/
 
  $(document).ready(function() {
      $("body").on("contextmenu", function(e) {
@@ -32,4 +32,3 @@ $(document).ready(function() {
          e.preventDefault();
       });
   });
-*/
