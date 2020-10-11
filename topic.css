@@ -16,3 +16,15 @@ body {
    background: -webkit-linear-gradient(top, rgb(10 10 10) 0%, rgb(94 41 189) 100%);
    background: linear-gradient(to bottom, rgb(33 28 124) 0%, #673AB7 100%);
 }
+
+h2 {
+    color: #FFEB3B;
+    font-size: 30px;
+    margin: 18px;
+    text-align: center;
+    text-shadow: 5px 5px black;
+}
+
+ul {
+    color: white;
+}
