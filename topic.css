@@ -1,0 +1,18 @@
+body {
+   text-align: center;
+   background: rgba(0,116,217,1);
+   background: -webkit-linear-gradient(top, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
+   background: linear-gradient(to bottom, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
+}
+
+.main {
+   text-align: start;
+   margin: auto;
+   font-family: 'Ubuntu', sans-serif;
+   border: ridge 8px #26770a;
+   padding: 8px;
+   width: 65%;
+   background: rgb(39 38 34);
+   background: -webkit-linear-gradient(top, rgb(10 10 10) 0%, rgb(94 41 189) 100%);
+   background: linear-gradient(to bottom, rgb(33 28 124) 0%, #673AB7 100%);
+}
