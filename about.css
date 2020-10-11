@@ -1,3 +1,10 @@
+body {
+   text-align: center;
+   background: rgba(0,116,217,1);
+   background: -webkit-linear-gradient(top, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
+   background: linear-gradient(to bottom, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
+}
+
 div {
     text-align: left;
     border: ridge 8px #8BC34A;
@@ -15,8 +22,24 @@ h4 {
     color: #2438a5;
 }
 
-p {
+.text {
     margin: 10px 10px 25px 10px;
     color: white;
     text-shadow: 1px .5px #000000;
+    font-size: 25px;
+}
+
+h1 {
+   font-family: 'Dancing Script', cursive;
+   font-size: 55px;
+   color: #FFC107;
+   text-shadow: 2px 2px black
+}
+
+h3 {
+   font-size: 25px;
+   font-family: 'Merienda', cursive;
+   margin-top: -30px;
+   color: #FFC107;
+   text-shadow: 2px 2px black
 }
