@@ -21,11 +21,11 @@ h2 {
 .block {
    font-family: 'Ubuntu', sans-serif;
    border: ridge 8px #e30707;
-   padding: 8px;
+   //padding: 8px;
    margin: 8px;
    display: inline-block;
-   width: 160px;
-   height: 75px;
+   width: 200px;
+   height: 100px;
    background: rgba(255,221,0,1);
    background: -webkit-linear-gradient(top, rgba(255,221,0,1) 0%, rgba(184,147,0,1) 100%);
    background: linear-gradient(to bottom, rgba(255,221,0,1) 0%, rgba(184,147,0,1) 100%);
@@ -143,3 +143,92 @@ Effects
           transition-delay: 0.25s;
 }
 */
+
+.ed {
+    width: 0px;
+    height: auto;
+    background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.75));
+    position: relative;
+    opacity:0;
+    transition:width 20s, opacity 0.6s;
+}
+
+.block:hover .ed{
+    width: auto;
+    background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.75));
+    position: relative;
+    opacity:1;
+    transition:width 0.4s, opacity 1.1s;
+    transition-delay: width 2s;
+
+    animation-name: gradient-fade;
+    animation-duration: 1.8s;
+}
+
+.block:hover .words {
+	display: inline-block;
+}
+
+.words {
+	display: none;
+    margin: 5px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+
+
+/* ANIMATION */
+@-webkit-keyframes gradient-fade {
+    0%   {background:linear-gradient(to right, rgba(0,0,255,0), rgba(255,0,0,0));}
+    2%  {background:linear-gradient(to right, rgba(0,0,255,0.01875), rgba(255,0,0,0));}
+    4%  {background:linear-gradient(to right, rgba(0,0,255,0.0375), rgba(255,0,0,0.0));}
+    6%  {background:linear-gradient(to right, rgba(0,0,255,0.05625), rgba(255,0,0,0.0));}
+    8% {background:linear-gradient(to right, rgba(0,0,255,0.075), rgba(255,0,0,0));}
+    10%  {background:linear-gradient(to right, rgba(0,0,255,0.09375), rgba(255,0,0,0));}
+    12%   {background:linear-gradient(to right, rgba(0,0,255,0.1125), rgba(255,0,0,0));}
+    14%  {background:linear-gradient(to right, rgba(0,0,255,0.13125), rgba(255,0,0,0));}
+    16%  {background:linear-gradient(to right, rgba(0,0,255,0.15), rgba(255,0,0,0));}
+    18%  {background:linear-gradient(to right, rgba(0,0,255,0.16875), rgba(255,0,0,0));}
+    20% {background:linear-gradient(to right, rgba(0,0,255,0.1875), rgba(255,0,0,0));}
+    22%  {background:linear-gradient(to right, rgba(0,0,255,0.20625), rgba(255,0,0,0.01875));}
+    24%   {background:linear-gradient(to right, rgba(0,0,255,0.225), rgba(255,0,0,0.0375));}
+    26%  {background:linear-gradient(to right, rgba(0,0,255,0.24375), rgba(255,0,0,0.05625));}
+    28%  {background:linear-gradient(to right, rgba(0,0,255,0.2625), rgba(255,0,0,0.075));}
+    30%  {background:linear-gradient(to right, rgba(0,0,255,0.28125), rgba(255,0,0,0.09375));}
+    32% {background:linear-gradient(to right, rgba(0,0,255,0.3), rgba(255,0,0,0.1125));}
+    34%  {background:linear-gradient(to right, rgba(0,0,255,0.31875), rgba(255,0,0,0.13125));}
+    36%   {background:linear-gradient(to right, rgba(0,0,255,0.3375), rgba(255,0,0,0.15));}
+    38%  {background:linear-gradient(to right, rgba(0,0,255,0.35625), rgba(255,0,0,0.16875));}
+    40%  {background:linear-gradient(to right, rgba(0,0,255,0.375), rgba(255,0,0,0.1875));}
+    42%  {background:linear-gradient(to right, rgba(0,0,255,0.39375), rgba(255,0,0,0.20625));}
+    44% {background:linear-gradient(to right, rgba(0,0,255,0.4125), rgba(255,0,0,0.225));}
+    46%  {background:linear-gradient(to right, rgba(0,0,255,0.43125),rgba(255,0,0,0.24375));}
+    48%   {background:linear-gradient(to right, rgba(0,0,255,0.45), rgba(255,0,0,0.2625));}
+    50%  {background:linear-gradient(to right, rgba(0,0,255,0.46875), rgba(255,0,0,0.28125));}
+    52%  {background:linear-gradient(to right, rgba(0,0,255,0.4875), rgba(255,0,0,0.3));}
+    54%   {background:linear-gradient(to right, rgba(0,0,255,0.50625), rgba(255,0,0,0.31875));}
+    56%  {background:linear-gradient(to right, rgba(0,0,255,0.525), rgba(255,0,0,0.3375));}
+    58%  {background:linear-gradient(to right, rgba(0,0,255,0.54375), rgba(255,0,0,0.35625));}
+    60%  {background:linear-gradient(to right, rgba(0,0,255,0.5625), rgba(255,0,0,0.375));}
+    62% {background:linear-gradient(to right, rgba(0,0,255,0.58125), rgba(255,0,0,0.39375));}
+    64%  {background:linear-gradient(to right,rgba(0,0,255,0.6), rgba(255,0,0,0.4125));}
+    66%   {background:linear-gradient(to right, rgba(0,0,255,0.61875), rgba(255,0,0,0.43125));}
+    68%  {background:linear-gradient(to right, rgba(0,0,255,0.6375), rgba(255,0,0,0.45));}
+    70%  {background:linear-gradient(to right, rgba(0,0,255,0.65625), rgba(255,0,0,0.46875));}
+    72%  {background:linear-gradient(to right, rgba(0,0,255,0.675), rgba(255,0,0,0.4875));}
+    74% {background:linear-gradient(to right, rgba(0,0,255,0.69375), rgba(255,0,0,0.50625));}
+    76%  {background:linear-gradient(to right, rgba(0,0,255,0.7125), rgba(255,0,0,0.525));}
+    78%   {background:linear-gradient(to right, rgba(0,0,255,0.73125),,rgba(255,0,0,0.54375));}
+    80%  {background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.5625));}
+    82%  {background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.58125));}
+    84%  {background:linear-gradient(to right, rgba(0,0,255,0.75),rgba(255,0,0,0.6));}
+    86% {background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.61875));}
+    88%  {background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.6375));}
+    90%   {background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.65625));}
+    92%  {background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.675));}
+    94%  {background:linear-gradient(to right, rgba(0,0,255,0.75),rgba(255,0,0,0.69375));}
+    96%  {background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.7125));}
+    98% {background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.73125),);}
+    100%  {background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.75));}
+}
