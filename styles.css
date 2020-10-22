@@ -48,11 +48,6 @@ h3 {
    text-shadow: 2px 2px black
 }
 
-#history:hover  + #history-span {
-   background: #000;
-   opacity: .5;
-}
-
 /*==========================================================
 Mobile
 ==========================================================*/
@@ -70,7 +65,7 @@ Effects
     background:linear-gradient(to right, rgba(0,0,255,0.75), rgba(255,0,0,0.75));
     position: relative;
     opacity:0;
-    transition:width 20s, opacity 0.6s;
+    transition: width 20s, opacity 0.6s;
 }
 
 .block:hover .ed{
@@ -94,6 +89,7 @@ Effects
 
 h2 {
 	display: inline-block;
+   margin: 32px 5px 20px 0px;
 }
 
 .words {
