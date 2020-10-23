@@ -9,11 +9,6 @@ body {
    background: linear-gradient(to bottom, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
 }
 
-::selection  {
-  background-color: green;
-  color: #eee;
-}
-
 h2 {
    font-size: auto;
    margin: 18%;
@@ -36,7 +31,7 @@ h2 {
 h1 {
    font-family: 'Dancing Script', cursive;
    font-size: 55px;
-   color: #FFC107;
+   color: rgb(255 213 0 / 50%);
    text-shadow: 2px 2px black
 }
 
@@ -45,7 +40,7 @@ h3 {
    font-family: 'Merienda', cursive;
    margin-top: -30px;
    color: #FFC107;
-   text-shadow: 2px 2px black
+   text-shadow: 2px 2px black;
 }
 
 /*==========================================================
