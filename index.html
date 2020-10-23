@@ -3,20 +3,21 @@
   <head>
      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Merienda:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="Images/favicon2.png" type="image/x-icon"/>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="nav-copyright.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/nav-copyright.css">
+    <script src="JavaScript/w3.js"></script>
     <meta charset="utf-8">
     <title>Home | The Schoolarly Bay</title>
-  </head>
-  <br>
-  <h1>The Schoolarly Bay</h1>
-  <h3>A collection of works by adolescent scholars</h3>
-  <p id="nav"><a title="Home" href="https://schoolarlybay.github.io/">&#x210C;<!--&Hopf;--></a> | <a title="About" href="https://schoolarlybay.github.io/about.html">About</a> | <a  title="Contact us" href="contact-us.html">Contact Us</a> | <a href="contribute.html" title="Put your papers on this site!">Contribute</a></p>
+</head>
   <body>
+     <div w3-include-html="HTML/navbar.html">
+        <br>
+        <h1>The Schoolarly Bay</h1>
+        <h3>A collection of works by adolescent scholars</h3>
      <div class="block">
        <h2 class="nolink">History</h2>
        <div class="ed">
-          <h2><a href="history.html" class="links">History</a></h2>
+          <h2><a href="/HTML/history.html" class="links">History</a></h2>
           <span class="words">“Those who cannot remember the past are condemned to repeat it.” –George Santayana</span>
       </div>
      </div>
@@ -95,7 +96,7 @@
           <span class="words">"I love a challange and saving the planet seems like a good one." -Paul Staments</span>
        </div>
      </div>
-     
+
      <div class="block">
         <h2><!--Transportation--></h2>
      </div>
@@ -135,5 +136,6 @@
 
   <p id="words"><a href="https://squirrel-314.github.io/">Gold Rush</a> | <a href="https://hillside-township.github.io/">Hillside Township</a> | <a href="https://github.com/schoolarlybay/schoolarlybay.github.io">GitHub</a> | Copyright &copy <span id="currentTime">When this was copyrighted</span> Squirrel</p>
   <script src="https://www.w3counter.com/tracker.js?id=134602"></script>
-  <script src="main.js" charset="utf-8" type="text/javascript"></script>
+  <script src="JavaScript/main.js" charset="utf-8" type="text/javascript"></script>
+  <script>w3.includeHTML();</script>
 </html>
