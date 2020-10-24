@@ -4,9 +4,10 @@
 
 h2 {
    font-size: auto;
-   margin: 18%;
+   margin: 32px 5px 20px 0px;
    color: #ddd;
    text-shadow: .2px .3px black;
+   display: inline-block;
 }
 
 .block {
@@ -63,11 +64,6 @@ Effects
 
 .block:hover .nolink {
 	display: none;
-}
-
-h2 {
-	display: inline-block;
-   margin: 32px 5px 20px 0px;
 }
 
 .words {
