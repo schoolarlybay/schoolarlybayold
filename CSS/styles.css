@@ -2,26 +2,11 @@
   overflow-x: hidden;
 }
 
-h1 {
-   font-family: 'Dancing Script', cursive;
-   font-size: 76px;
-   color: #001F3F;
-   font-weight: 800;
-}
-
 h2 {
-   font-size: auto;
-   margin: 32px 5px 20px 0px;
+   font-size: 28px;
+   margin: 18%;
    color: #ddd;
    text-shadow: .2px .3px black;
-   display: inline-block;
-}
-
-h3 {
-   font-size: 25px;
-   font-family: 'Comic Sans MS', cursive;
-   margin-top: -30px;
-   color: #001F3F;
 }
 
 .block {
@@ -32,6 +17,20 @@ h3 {
    width: 250px;
    height: 150px;
    background: skyblue;
+}
+
+h1 {
+   font-family: 'Dancing Script', cursive;
+   font-size: 76px;
+   color: #001F3F;
+   font-weight: 800;
+}
+
+h3 {
+   font-size: 24px;
+   font-family: 'Comic Sans MS', cursive;
+   margin-top: -30px;
+   color: #001F3F;
 }
 
 /*==========================================================
@@ -64,6 +63,11 @@ Effects
 
 .block:hover .nolink {
 	display: none;
+}
+
+h2 {
+	display: inline-block;
+   margin: 54px 5px 20px 0px;
 }
 
 .words {
