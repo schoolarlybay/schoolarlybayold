@@ -16,7 +16,7 @@ h2 {
 
 .block {
    font-family: 'Ubuntu', sans-serif;
-   border: ridge 6px #001F3F;
+   border: solid 6px #001F3F;
    margin: 8px;
    display: inline-block;
    width: 175px;
