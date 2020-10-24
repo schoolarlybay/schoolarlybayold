@@ -4,7 +4,7 @@
 
 body {
    text-align: center;
-   background: #FFFFFF;
+   background-image: linear-gradient(to right, #c6c2c2 , #63bae9);\
 }
 
 h2 {
