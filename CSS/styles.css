@@ -5,20 +5,18 @@
 body {
    text-align: center;
    background: rgba(0,116,217,1);
-   background: -webkit-linear-gradient(top, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
-   background: linear-gradient(to bottom, rgba(0,116,217,1) 0%, rgba(0,65,122,1) 100%);
+   background-image: linear-gradient(to right, #a19e9e , #00a6ff);
 }
 
 h2 {
    font-size: auto;
    margin: 18%;
-   color: #00897B;
-   text-shadow: .5px .5px black;
+   color: #1a7504;
 }
 
 .block {
    font-family: 'Ubuntu', sans-serif;
-   border: ridge 8px #e30707;
+   border: ridge 6px #e30707;
    margin: 8px;
    display: inline-block;
    width: 175px;
@@ -30,8 +28,8 @@ h2 {
 
 h1 {
    font-family: 'Dancing Script', cursive;
-   font-size: 55px;
-   color: rgb(255 213 0 / 50%);
+   font-size: 70px;
+   color: rgb(255 88 88 / 50%);
    text-shadow: 2px 2px black
 }
 
