@@ -5,28 +5,28 @@
    top: 0;
    width: 100%;
    padding: 10px;
-   background-color: black;
+   background-color: #ffffff;
   font-family: 'Ubuntu', sans-serif;
   letter-spacing: 2.5px;
-  color: #fff;
+  color: black;
   font-size: 20px;
 }
 
 a {
    text-decoration: none;
-   color: white;
+   color: black;
 }
 
 #words {
-   font-weight: bolder;
-   margin: 0px 0px 0px -8px;
-   position: fixed;
-   bottom: 0;
-   width: 100%;
-   padding: 5px;
-   background-color: black;
+  font-weight: bolder;
+  margin: 0px 0px 0px -8px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: white;
   font-family: monospace;
-  color: #fff;
+  color: black;
 }
 
 ::-webkit-scrollbar {
