@@ -23,6 +23,10 @@ h3 {
    color: #001F3F;
 }
 
+.block::-webkit-scrollbar {
+    display: none;
+}
+
 .block {
    font-family: 'Ubuntu', sans-serif;
    border: solid 6px #001F3F;
@@ -31,11 +35,6 @@ h3 {
    width: 250px;
    height: 150px;
    background: skyblue;
-}
-
-.block::-webkit-scrollbar {
-    display: none;
-}
 
 /*==========================================================
 Effects
