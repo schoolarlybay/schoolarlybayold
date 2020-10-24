@@ -1,3 +1,9 @@
+body {
+   text-align: center;
+   background: rgba(0,116,217,1);
+   background-image: linear-gradient(to right, #c6c2c2 , #63bae9);
+}
+
 #nav {
    font-weight: bolder;
    margin: 0px 0px 0px -8px;
