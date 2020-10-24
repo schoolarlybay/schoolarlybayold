@@ -4,19 +4,19 @@
 
 body {
    text-align: center;
-   background-image: linear-gradient(to right, #c6c2c2 , #4cb0e6);
+   background: rgba(0,116,217,1);
+   background-image: linear-gradient(to right, #c6c2c2 , #63bae9);
 }
 
 h2 {
    font-size: auto;
    margin: 18%;
-   color: #00897B;
-   text-shadow: .5px .5px black;
+   color: #1a7504;
 }
 
 .block {
    font-family: 'Ubuntu', sans-serif;
-   border: solid 6px #001F3F;
+   border: ridge 6px #001F3F;
    margin: 8px;
    display: inline-block;
    width: 175px;
@@ -36,13 +36,6 @@ h3 {
    font-family: 'Comic Sans MS', cursive;
    margin-top: -30px;
    color: #001F3F;
-}
-
-/*==========================================================
-Mobile
-==========================================================*/
-
-@media (max-width: 740px) {
 }
 
 /*==========================================================
