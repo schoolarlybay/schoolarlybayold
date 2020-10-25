@@ -12,8 +12,8 @@ h1 {
 h2 {
    font-size: 28px;
    margin-top: 22%;
-   color: #ddd;
-   text-shadow: .2px .3px black;
+   margin-left: 1%;
+   margin-right: 1%;
 }
 
 h3 {
@@ -32,8 +32,8 @@ h3 {
    border: solid 6px #001F3F;
    margin: 8px;
    display: inline-block;
-   width: 250px;
-   height: 150px;
+   width: 270px;
+   height: 156px;
    background: skyblue;
 }
 /*==========================================================
@@ -66,6 +66,10 @@ Effects
 
 .block:hover .nolink {
 	display: none;
+}
+
+.links {
+    color: white;
 }
 
 .words {
