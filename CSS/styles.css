@@ -36,7 +36,14 @@ h3 {
    width: 270px;
    height: 156px;
    background: skyblue;
+   transition: border-radius 1s ease;
+   transition-delay: .8s;
 }
+
+.block:hover {
+    border-radius: 15%;
+}
+
 /*==========================================================
 Effects
 ==========================================================*/

@@ -35,6 +35,11 @@ a {
   background-color: #fff;
   font-family: monospace;
   color: black;
+  transition: font-size 2s;
+}
+
+#words:hover {
+  font-size: 15px;
 }
 
 /*
