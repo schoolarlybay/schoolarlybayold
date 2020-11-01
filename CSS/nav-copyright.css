@@ -50,6 +50,7 @@ a {
   background: #10EFB4;
 }
 
+/* Modal Styles */
 
 .modal {
   display: none;
@@ -69,6 +70,7 @@ a {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+  font-size: 20px;
 }
 
 .close {

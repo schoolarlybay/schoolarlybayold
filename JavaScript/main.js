@@ -30,7 +30,7 @@ window.onclick = function(event) {
 }
 
 function timeCitation() {
-   setTimeout(citation, 15000)
+   setTimeout(citation, 10000)
 }
 
 window.onload = timeCitation()
