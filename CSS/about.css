@@ -15,13 +15,6 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-h4 {
-    font-size: 30px;
-    margin: -10px 25px;
-    text-shadow: 1.5px .5px #f1f1f1;
-    color: #2438a5;
-}
-
 .text {
     margin: 10px 10px 25px 10px;
     color: white;
@@ -44,7 +37,27 @@ h3 {
    text-shadow: 2px 2px black
 }
 
+h4 {
+    font-size: 30px;
+    margin: -10px 25px;
+    text-shadow: 1px .5px #717171;
+    color: #2438a5;
+}
+
 .link {
    text-decoration: underline;
    color: #0088ff;
+}
+
+li {
+   line-height: 2em;
+}
+
+#privacy {
+   border: 4px ridge #262626;
+   border-radius: 5px;
+   padding: 25px;
+   margin: 25px;
+   background-color: beige;
+   opacity: .9;
 }

@@ -9,18 +9,45 @@ var getCurrentDate = window.setInterval(function() {
 }, 1000)
 
 /*=======================================================
-Prevent Copying
+Onload
 =======================================================*/
+
+var modal = document.getElementById("myModal");
+var span = document.getElementsByClassName("close")[0];
+
+function citation() {
+  modal.style.display = "block";
+}
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+function timeCitation() {
+   setTimeout(citation, 15000)
+}
+
+window.onload = timeCitation()
+
+/*=======================================================
+Prevent Copying
+=======================================================
 
 $(document).ready(function() {
     $('body').bind('cut copy', function(e) {
         e.preventDefault();
       });
  });
-
+*/
 /*=======================================================
 Prevent Right Click
-=======================================================*/
+=======================================================
 
  $(document).ready(function() {
      $("body").on("contextmenu", function(e) {
@@ -32,3 +59,4 @@ $(document).ready(function() {
          e.preventDefault();
       });
   });
+*/

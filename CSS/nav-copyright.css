@@ -4,8 +4,6 @@ body {
    background-image: linear-gradient(to right, #c6c2c2 , #63bae9);
 }
 
-
-
 #nav {
    font-weight: bolder;
    margin: 0px 0px 0px -8px;
@@ -50,4 +48,39 @@ a {
 
 ::selection {
   background: #10EFB4;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
