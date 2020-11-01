@@ -18,6 +18,27 @@ body {
   font-size: 20px;
 }
 
+.navlink {
+  text-decoration: none;
+  position: relative;
+}
+
+.navlink:after {
+  content: "";
+  display: block;
+  height: 2.5px;
+  left: 50%;
+  position: absolute;
+  background: #262626;
+  transition: all 0.3s .2s;
+  width: 0;
+}
+
+.navlink:hover:after {
+  width: 100%;
+  left: 0;
+}
+
 a {
    text-decoration: none;
    color: black;
@@ -39,12 +60,6 @@ a {
 #words:hover {
   font-size: 15px;
 }
-
-/*
-::-webkit-scrollbar {
-    display: none;
-}
-*/
 
 ::selection {
   background: #10EFB4;
